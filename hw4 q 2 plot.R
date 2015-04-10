@@ -1,0 +1,6 @@
+plot(mu, x1, type ="l", xlab = bquote(theta), ylab = "power")
+lines(mu, x2, lty=2)
+lines(mu, x3, lty=3)
+lines(mu, x4, lty=4)
+lines(mu, x5, lty=5) 
+legend("topright", 1, c("n=10", "n=20", "n=30", "n=40", "n=50"), lty = c(1,2,3,4,5), inset = .02)
