@@ -1,0 +1,11 @@
+montsin<-function(n){
+j<-0
+x<-0
+while(j<n){
+j<-j+1
+y<-runif(1)
+x<-x+sin(y)
+}
+x<-x*(1/n)*(pi/3)
+x
+}
